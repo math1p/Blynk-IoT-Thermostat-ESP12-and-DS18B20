@@ -1,4 +1,4 @@
-# Termostato SmartHome com ESP01S e DHT11
+# Termostato SmartHome com ESP01S e DHT22
 
 ![Imagem do Termostato](link_da_imagem.png)
 
@@ -13,7 +13,7 @@ Em Desenvolvimento
 ## Pré-requisitos
 
 - ESP01S com firmware gravado
-- Sensor de Temperatura e Umidade DHT11
+- Sensor de Temperatura e Umidade DHT22
 - Plataforma Arduino IDE configurada para ESP01S
 
 ## Instalação
@@ -24,7 +24,7 @@ Em Desenvolvimento
 
 ## Como Usar
 
-1. Conecte o ESP01S ao sensor DHT11.
+1. Conecte o ESP01S ao sensor DHT22.
 2. Configure as opções no arquivo `config.h`.
 3. Carregue o firmware no ESP01S.
 4. O termostato começará a funcionar automaticamente.
@@ -44,4 +44,3 @@ Este projeto é dedicado ao domínio público sob a [Licença CC0](https://creat
 ## Contato
 
 - Email: seu.email@example.com
-- Twitter: [@seu_usuario_twitter](https://twitter.com/seu_usuario_twitter)
