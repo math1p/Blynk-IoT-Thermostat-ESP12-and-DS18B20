@@ -17,7 +17,7 @@ Em Desenvolvimento
 
 ## Instalação
 
-1. Instale em: `git clone https://github.com/math1p/Temperature-Humidity-ESP-DS18B20.git`
+1. Instale em: `https://github.com/math1p/Temperature-Humidity-ESP-DS18B20.git`
 2. Abra o projeto na Arduino IDE
 3. Envie o código para o ESP01S
 
