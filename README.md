@@ -17,7 +17,7 @@ Em Desenvolvimento
 
 ## Instalação
 
-1. Instale em: [![Baixar Repositório](https://img.shields.io/badge/Baixar-Reposit%C3%B3rio-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20)
+1. Instale em: [Baixar Repositório](https://img.shields.io/badge/Baixar-Reposit%C3%B3rio-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
 
 2. Abra o projeto na Arduino IDE
 3. Envie o código para o ESP01S
