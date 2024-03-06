@@ -1,6 +1,6 @@
 [![Download](https://img.shields.io/badge/Download-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
 
-# Termostato SmartHome com ESP01S e DS18B20
+# Termostato com ESP01S e DS18B20
 ![Imagem do Termostato](link_da_imagem.png)
 
 ## Demonstração
