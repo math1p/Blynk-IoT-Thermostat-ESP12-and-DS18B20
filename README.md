@@ -1,9 +1,7 @@
+[![Download](https://img.shields.io/badge/Download-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
+
 # Termostato SmartHome com ESP01S e DS18B20
 ![Imagem do Termostato](link_da_imagem.png)
-
-## Status do Projeto
-
-Em Desenvolvimento
 
 ## Demonstração
 
@@ -11,32 +9,26 @@ Em Desenvolvimento
 
 ## Pré-requisitos
 
-- ESP01S (para outros microcontroladores, consulte ...)
-- Sensor de Temperatura DS18B20 (datasheet)
+- ESP01S (é possível usar outros microcontroladores, mas serão necesárias alterações no código)
+- Sensor de Temperatura DS18B20 ![(datasheet)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html)
 - Arduino IDE e as bibliotecas necessárias
-
-## Instalação
-
-1. Instale em: [![Baixar Repositório](https://img.shields.io/badge/Baixar-Reposit%C3%B3rio-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
-2. 
-3. Abra o projeto na Arduino IDE
-4. Envie o código para o ESP01S
-
-## Bibliotecas
-1. aa
-2. bb
-3. cc
 
 ## Como Usar
 
 1. Conecte o ESP01S ao sensor DS18B20
 2. Defina as configurações de acordo com a sua preferência em: `config.h`.
-3. Carregue o firmware no ESP01S.
+3. Instale as bibliotecas necessárias e carregue o firmware no ESP01S.
 4. O termostato começará a funcionar automaticamente.
 
 ## Configuração
 
-No arquivo `config.h`, você pode ajustar parâmetros como a faixa de temperatura desejada, intervalos de leitura do sensor, ... e etc.
+No arquivo `config.h`, você pode ajustar as configurações do Blynk, o pino no qual o sensor está conectado e intervalos de leitura do sensor.
+
+## Bibliotecas
+- ESP8266WiFi
+- BlynkSimpleEsp8266
+- OneWire
+- DallasTemperature
 
 ## Licença
 
