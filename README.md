@@ -9,20 +9,21 @@
 
 ## Pré-requisitos
 
-- ESP01S (é possível usar outros microcontroladores, mas serão necesárias alterações no código)
+- ESP8266-01S (é possível usar outros microcontroladores, mas talvez sejam necesárias alterações no código)
 - Sensor de Temperatura DS18B20 ![(datasheet)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html)
 - Arduino IDE e as bibliotecas necessárias
 
 ## Como Usar
 
 1. Conecte o ESP01S ao sensor DS18B20
-2. Defina as configurações de acordo com a sua preferência em: `config.h`.
-3. Instale as bibliotecas necessárias e carregue o firmware no ESP01S.
-4. O termostato começará a funcionar automaticamente.
+2. Escolha uma fonte de energia (3.3V) para alimentar o ESP01S e o sensor
+3. Defina as configurações e faça os ajustes de acordo com a sua preferência em: `config.h`.
+4. Instale as bibliotecas necessárias e carregue o firmware no ESP01S.
+5. O termostato começará a funcionar automaticamente.
 
 ## Configuração
 
-No arquivo `config.h`, você pode ajustar as configurações do Blynk, o pino no qual o sensor está conectado e intervalos de leitura do sensor.
+No arquivo `config.h` é possível ajustar algumas configurações como: Informações para se conectar ao servidor Blynk, credenciais da rede para conexão WiFi, o pino no qual o sensor está conectado e os intervalos para leitura e envio dos dados.
 
 ## Bibliotecas
 - ESP8266WiFi
