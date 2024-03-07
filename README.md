@@ -23,13 +23,17 @@
 
 ## Configuração
 
-No arquivo `config.h` é possível ajustar algumas configurações como: Informações para se conectar ao servidor Blynk, credenciais da rede para conexão WiFi, o pino no qual o sensor está conectado e os intervalos para leitura e envio dos dados.
+No arquivo `config.h` é possível ajustar algumas configurações como: Informações para se conectar ao servidor Blynk, credenciais da rede para conexão WiFi, o pino no qual o sensor está conectado e os intervalos para leitura e envio dos dados. 
 
 ## Bibliotecas
 - ESP8266WiFi
 - BlynkSimpleEsp8266
 - OneWire
 - DallasTemperature
+
+## Recursos adicionais
+- Função ESP.deepSleep
+- Display
 
 ## Licença
 
