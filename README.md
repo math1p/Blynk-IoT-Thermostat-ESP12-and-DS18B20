@@ -1,44 +1,45 @@
 [![Download](https://img.shields.io/badge/Download-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
 
-# Termostato com ESP01S e DS18B20
-![Imagem do Termostato](link_da_imagem.png)
+# Thermostat with ESP01S and DS18B20
 
-## Demonstração
+This is a simple smart thermostat project in which the room temperature can be checked with an accuracy of 0.5°C on a smartphone or computer through Blynk. The ESP01S microcontroller is perfect for IoT projects as it has low cost, small size and low power consumption depending on reading intervals.
 
-[Veja o Termostato em Ação](link_da_demo.gif)
+It is important to highlight that it is not possible to view the temperature directly, requiring a previously configured WiFi connection so that the ESP8266-01S can communicate with the Blynk server. For a project with a similar objective that does not require an internet connection, I suggest using a microcontroller like the ATtiny85 and a display (TM1637).
 
-## Pré-requisitos
+![Thermostat Image - NO IMAGE](image_link.png)
 
-- ESP8266-01S (é possível usar outros microcontroladores, mas talvez sejam necesárias alterações no código)
-- Sensor de Temperatura DS18B20 ![(datasheet)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html)
-- Arduino IDE e as bibliotecas necessárias
+## Prerequisites
 
-## Como Usar
+- ESP8266-01S (it is possible to use other microcontrollers, but code changes may be necessary)
+- Temperature Sensor ![DS18B20 (Dallas)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html)
+- Arduino IDE and necessary libraries
 
-1. Conecte o ESP01S ao sensor DS18B20
-2. Escolha uma fonte de energia (3.3V) para alimentar o ESP01S e o sensor
-3. Defina as configurações e faça os ajustes de acordo com a sua preferência em: `config.h`.
-4. Instale as bibliotecas necessárias e carregue o firmware no ESP01S.
-5. O termostato começará a funcionar automaticamente.
+## How to use
 
-## Configuração
+1. Connect ESP01S to Dallas-18B20 sensor
+2. Choose a power source (3.3V) to power the ESP01S and the sensor
+3. Configure the settings and make adjustments according to your preference in: `config.h`
+4. Install the necessary libraries and load the firmware into the ESP01S
+5. The thermostat will start working automatically
 
-No arquivo `config.h` é possível ajustar algumas configurações como: Informações para se conectar ao servidor Blynk, credenciais da rede para conexão WiFi, o pino no qual o sensor está conectado e os intervalos para leitura e envio dos dados. 
+## Settings
 
-## Bibliotecas
+In the `config.h` file it is possible to adjust some settings such as: Information for connecting to the Blynk server, network credentials for WiFi connection, the pin to which the sensor is connected and the intervals for reading and sending data.
+
+## Libraries
 - ESP8266WiFi
 - BlynkSimpleEsp8266
 - OneWire
-- DallasTemperature
+-DallasTemperature
 
-## Recursos adicionais
-- Função ESP.deepSleep
+## Additional features
+- ESP.deepSleep function
 - Display
 
-## Licença
+## License
 
-Este projeto é dedicado ao domínio público sob a [Licença CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+This project is dedicated to the public domain under the [CC0 License](https://creativecommons.org/publicdomain/zero/1.0/).
 
-## Contato
+## Contact
 
 - Email: matheusito.ito@gmail.com
