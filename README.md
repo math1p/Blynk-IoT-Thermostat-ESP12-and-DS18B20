@@ -2,10 +2,6 @@
 
 ### Project under development
 
-This is a simple smart thermostat project in which the room temperature can be checked with an accuracy of 0.5°C on a smartphone or computer through Blynk. The ESP01S microcontroller is perfect for IoT projects as it has low cost, small size and low power consumption depending on reading intervals.
-
-It is important to highlight that it is not possible to view the temperature directly, requiring a previously configured WiFi connection so that the ESP8266-01S can communicate with the Blynk server. For a project with a similar objective that does not require an internet connection, I suggest using a microcontroller like the ATtiny85 and a display (TM1637).
-
 ![Thermostat Image - NO IMAGE](image_link.png)
 
 ## Prerequisites
@@ -31,6 +27,10 @@ In the `config.h` file it is possible to adjust some settings such as: Informati
 - BlynkSimpleEsp8266
 - OneWire
 -DallasTemperature
+
+## Notes
+
+It is important to highlight that it is not possible to view the temperature directly, requiring a previously configured WiFi connection so that the ESP8266-01S can communicate with the Blynk server. For a project with a similar objective that does not require an internet connection, I suggest using a microcontroller like the ATtiny85 and a display (TM1637).
 
 ## Additional features
 - ESP.deepSleep function
