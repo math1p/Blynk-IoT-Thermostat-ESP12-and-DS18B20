@@ -1,6 +1,4 @@
-[![Download](https://img.shields.io/badge/Download-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
-
-# Thermostat with ESP01S and DS18B20
+# Thermostat with ESP01S and DS18B20    [![Download](https://img.shields.io/badge/Download-brightgreen.svg)](https://github.com/math1p/Temperature-Humidity-ESP-DS18B20/archive/main.zip)
 
 ### Project under development
 
