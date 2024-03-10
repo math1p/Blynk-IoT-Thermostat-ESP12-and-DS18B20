@@ -8,6 +8,7 @@
 
 - ESP8266-01S (it is possible to use other microcontrollers, but code changes may be necessary)
 - Temperature Sensor ![DS18B20 (Dallas)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html)
+- 3.3V power supply
 - Arduino IDE and necessary libraries
 
 ## How to use
