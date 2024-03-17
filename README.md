@@ -27,7 +27,7 @@ In the `config.h` file it is possible to adjust some settings such as: Informati
 - ESP8266WiFi
 - BlynkSimpleEsp8266
 - OneWire
--DallasTemperature
+- DallasTemperature
 
 ## Notes
 
@@ -35,7 +35,9 @@ It is important to highlight that it is not possible to view the temperature dir
 
 ## Additional features
 - ESP.deepSleep function
-- Display
+- Display (TM1637)
+- Wi-Fi connection test using a button (green LED for connection established and red LED for disconnected)
+- OTA: Firmware Over-The-Air updates
 
 ## License
 
