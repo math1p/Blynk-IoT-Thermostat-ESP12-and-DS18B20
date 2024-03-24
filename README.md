@@ -38,6 +38,7 @@ It is important to highlight that it is not possible to view the temperature dir
 - Display (TM1637)
 - Wi-Fi connection test using a button (green LED for connection established and red LED for disconnected)
 - OTA: Firmware Over-The-Air updates
+- ESPserver
 
 ## License
 
