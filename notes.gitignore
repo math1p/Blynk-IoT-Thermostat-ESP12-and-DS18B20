@@ -1,1 +1,5 @@
 battery 18650 -> charger/step up 5v -> step down 3.3v (buck converter) -> esp8266-01s
+battery cr123a 3v -> esp8266-01s
+
+1. attiny13/85 (timer) -> RST (wake esp8266-01s from deepsleep)
+2. esp8266-12e/f -> (gpio16 -> RST)
