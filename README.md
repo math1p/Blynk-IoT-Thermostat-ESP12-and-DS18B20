@@ -16,16 +16,16 @@
 
 ## How to use
 
-1. Connect ESP12 to Dallas-18B20 sensor according to the [diagram](https://github.com/math1p/IoT-Thermostat-ESP01S-and-DS18B20/tree/fc62981acf8826e92cfca377931825ce31c3a37b/Schematics%20-%20ESP01S%20%26%20ESP12F)
+1. Connect the ESP12 to the DS18B20 sensor according to the [diagram](https://github.com/math1p/IoT-Thermostat-ESP12-and-DS18B20/tree/f4058d7162584688534fe797a7ba8f8e52e69ae5/Schematics%20ESP01S%20%26%20ESP12)
 2. Choose a power source (3.3V) to power the ESP12 and the sensor
-3. Configure the settings and make adjustments according to your preference in: `config.h`
+3. Configure the settings and make adjustments according to your preference in the `config.h` file
 4. Install the necessary libraries and load the firmware into the ESP12
 5. The thermostat will start working automatically
-6. Log in to [Blynk](https://blynk.cloud) account
+6. Log in to your [Blynk](https://blynk.cloud) account
 
 ## Settings
 
-In the `config.h` file it is possible to adjust some settings such as: Information for connecting to the Blynk server, network credentials for WiFi connection, the pin to which the sensor is connected and the intervals for reading and sending data.
+In the `config.h` file it's possible to adjust some settings such as: Information for connecting to the Blynk server, network credentials for WiFi connection, the pin to which the sensor is connected and the intervals for reading and sending data.
 
 ## Libraries
 - ESP8266WiFi
@@ -35,13 +35,13 @@ In the `config.h` file it is possible to adjust some settings such as: Informati
 
 ## Notes
 
-I chose ESP12 because I couldn't solder the GPIO16 pin to the RST on the ESP01S, without this it is not possible to use the ESP.deepSleep() function
+I chose ESP12 because I couldn't solder the GPIO16 pin to the RST on the ESP01S, without this it's not possible to use the ESP.deepSleep() function
 
 It is important to highlight that it is not possible to view the temperature directly, requiring a previously configured WiFi connection so that the ESP8266-01S can communicate with the Blynk server. For a project with a similar objective that does not require an internet connection, I suggest using a microcontroller like the ATtiny85 and a display (TM1637).
 
 I won't provide information about Blynk configuration, but I can tell you that you should use Datastreams and Virtualpins. For example: Temperature; V0
 
-For information about Blynk, see https://docs.blynk.io/en
+For information about Blynk, see [Blynk Documentation](https://docs.blynk.io/en)
 
 ## Future updates
 - ESP.deepSleep function
