@@ -16,7 +16,7 @@
 
 ## How to use
 
-1. Connect ESP12 to Dallas-18B20 sensor according to the [diagram](ESP12_DIAGRAM)
+1. Connect ESP12 to Dallas-18B20 sensor according to the [diagram](https://github.com/math1p/IoT-Thermostat-ESP01S-and-DS18B20/tree/fc62981acf8826e92cfca377931825ce31c3a37b/Schematics%20-%20ESP01S%20%26%20ESP12F)
 2. Choose a power source (3.3V) to power the ESP12 and the sensor
 3. Configure the settings and make adjustments according to your preference in: `config.h`
 4. Install the necessary libraries and load the firmware into the ESP12
