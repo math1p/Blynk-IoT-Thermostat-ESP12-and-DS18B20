@@ -16,7 +16,7 @@
 
 ## How to use
 
-1. Connect ESP12 to Dallas-18B20 sensor
+1. Connect ESP12 to Dallas-18B20 sensor according to the [diagram](ESP12_DIAGRAM)
 2. Choose a power source (3.3V) to power the ESP12 and the sensor
 3. Configure the settings and make adjustments according to your preference in: `config.h`
 4. Install the necessary libraries and load the firmware into the ESP12
@@ -43,13 +43,14 @@ I won't provide information about Blynk configuration, but I can tell you that y
 
 For information about Blynk, see https://docs.blynk.io/en
 
-## Additional features
+## Future updates
 - ESP.deepSleep function
 - ESPserver to configure the wifi connection
+
+## Suggestions
 - Display (TM1637)
 - Wi-Fi connection test using a button (green LED for connection established and red LED for disconnected)
 - OTA: Firmware Over-The-Air updates
-
 
 ## License
 
@@ -58,3 +59,4 @@ This project is dedicated to the public domain under the [CC0 License](https://c
 ## Contact
 
 - Email: matheusito.ito@gmail.com
+- Reddit: [mathp](https://www.reddit.com/user/CactoDeVidro/)
