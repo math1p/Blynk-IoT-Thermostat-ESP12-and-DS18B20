@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- ESP12 or other ESP controller ([ESP01/01S](https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions)) with GPIO16 connected to RST.
+- ESP12 or other ESP8266 controller ([ESP01/01S](https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions)) with GPIO16 connected to RST.
 - Temperature Sensor [DS18B20 (Dallas)](https://pdf1.alldatasheet.com/datasheet-pdf/view/227472/DALLAS/DS18B20.html).
 - ~3.3V power supply.
 - Arduino IDE and necessary libraries.
@@ -24,12 +24,12 @@
 
 ## How to use
 
-1. Connect the **ESP12** to the **DS18B20** sensor according to the [diagram](https://github.com/math1p/IoT-Thermostat-ESP12-and-DS18B20/tree/f4058d7162584688534fe797a7ba8f8e52e69ae5/Schematics%20ESP01S%20%26%20ESP12).
+1. Install the necessary **libraries** and load the firmware into the **ESP12**.
 2. Choose a power source **(3.3V)** to power the **ESP12** and the **sensor**.
-3. Configure the settings and make adjustments according to your preference in the `config.h` file.
-4. Install the necessary **libraries** and load the firmware into the **ESP12**.
-5. The thermostat will start working automatically.
-6. Log in to your [Blynk](https://blynk.cloud) account.
+3. Connect the **ESP12** to the **DS18B20** sensor according to the [diagram](https://github.com/math1p/IoT-Thermostat-ESP12-and-DS18B20/tree/f4058d7162584688534fe797a7ba8f8e52e69ae5/Schematics%20ESP01S%20%26%20ESP12).
+4. Configure the settings and make adjustments according to your preference in the `config.h` file.
+5. Log in to your [Blynk](https://blynk.cloud) account.
+6. The thermostat will start working automatically.
 
 > [!IMPORTANT]
 > In the `config.h` file it's possible to adjust some settings such as: Information for connecting to the **Blynk** server, **network credentials for WiFi connection**, the **pin** to which the sensor is connected and the **intervals** for reading and sending data.
