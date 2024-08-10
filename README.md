@@ -16,7 +16,7 @@
 > [!TIP]
 > It's possible to use other microcontrollers, but code changes may be necessary. I chose ESP12 because I couldn't solder the GPIO16 pin to the RST on the ESP01S, without this it's not possible to use the ESP.deepSleep() function.
 
-## Libraries
+## Libraries (Arduino IDE)
 - ESP8266WiFi
 - BlynkSimpleEsp8266
 - OneWire
