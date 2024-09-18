@@ -24,7 +24,7 @@
 
 ## How to use
 
-1. Install the necessary **libraries** and load the firmware into the **ESP12**.
+1. Install the necessary **libraries** and load the firmware into the **ESP12** .
 2. Choose a power source **(3.3V)** to power the **ESP12** and the **sensor**.
 3. Connect the **ESP12** to the **DS18B20** sensor according to the [diagram](https://github.com/math1p/IoT-Thermostat-ESP12-and-DS18B20/tree/f4058d7162584688534fe797a7ba8f8e52e69ae5/Schematics%20ESP01S%20%26%20ESP12).
 4. Configure the settings and make adjustments according to your preference in the `config.h` file.
@@ -39,17 +39,12 @@
 It is important to highlight that it is not possible to view the temperature directly, requiring a previously configured WiFi connection so that the ESP8266-01S can communicate with the Blynk server. For a project with a similar objective that does not require an internet connection, I suggest using a microcontroller like the ATtiny85 and a display (TM1637).
 
 > [!NOTE]
-> I won't provide information about Blynk configuration, but I can tell you that you should use Datastreams and Virtualpins. For example: Temperature; V0
+> I won't provide information about Blynk configuration, but I can tell you that you should use Datastreams and Virtualpins. For example: Temperature; V0 (!!!)
 > For information about Blynk, see [Blynk Documentation](https://docs.blynk.io/en).
 
 ## Future updates
-- ESP.deepSleep function.
-- ESPserver to configure the wifi connection.
-
-## Suggestions
-- Display (TM1637).
-- OTA: Firmware Over-The-Air updates.
-- WiFi manager: https://randomnerdtutorials.com/esp8266-nodemcu-wi-fi-manager-asyncwebserver/
+- ESP.deepSleep function. (!!!) (gpio16 -> rst)
+- WiFi manager: https://randomnerdtutorials.com/esp8266-nodemcu-wi-fi-manager-asyncwebserver/ (step 2/3)
 
 ## License
 
