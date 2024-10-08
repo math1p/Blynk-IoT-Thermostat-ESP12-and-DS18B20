@@ -2,7 +2,7 @@
 
 ### Project under development
 
-![Thermostat Image]([image_link.png](https://github.com/math1p/Blynk-IoT-Thermostat-ESP12-and-DS18B20/blob/main/assets/IMG_20240325_0003.jpg))
+![Thermostat Image](https://github.com/math1p/Blynk-IoT-Thermostat-ESP12-and-DS18B20/blob/main/assets/IMG_20240325_0003.jpg)
 
 
 #### In Rio de Janeiro, temperatures can exceed 35°C on some days. As my house gets very hot, I decided to create a project to monitor the temperature at any time, even away from home.
