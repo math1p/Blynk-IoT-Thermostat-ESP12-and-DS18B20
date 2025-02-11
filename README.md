@@ -53,5 +53,5 @@ This project is dedicated to the public domain under the [CC0 License](https://c
 
 ## Contact
 
-- Email: ---
+- Email: matheuspestana@outlook.com.br
 - Reddit: [---](https://www.reddit.com/user/---/)
